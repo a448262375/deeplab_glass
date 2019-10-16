@@ -21,6 +21,11 @@ import os.path
 import time
 import numpy as np
 import tensorflow as tf
+
+import sys
+sys.path.append('/content/deeplab_glass')
+sys.path.append('/content/deeplab_glass/slim')
+
 from deeplab import common
 from deeplab import model
 from deeplab.datasets import data_generator
